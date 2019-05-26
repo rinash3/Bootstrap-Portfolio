@@ -1,9 +1,15 @@
 body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
     background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExMWFRUXFRgXFxcXFxcXFxcXFxcXFxcXGhgYHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDB//EACcQAQEBAAECBQQDAQEAAAAAAAABEQIS8CExUWFxQZGh0YHh8bET/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APYelWGEGLDKORlBTv8A0s5n+a0CwREBIKVaAla6mTAVkViVgFRCA0OSqBYzeTUc7wBtapDQWnRiBEEEoN/oSg1/5+6HVUDNplUAGGzwUIM9JxGAzhWoBiOLAAIoHVoGg2MFq0G57s1IElCCwi1aApSoHWd8fZGAzy5Djda6R0gur2v4/aORAIJ6lUGtWstAtOhAKdCBKiIDWbSKBiVNgM76Ke7UZwFK0FAaUGLxA1m0j2BVqVmxqArFhwALUYoDOprPb8IGTK1iwGcQz+aoBhVIM4oQCwIgozyhhlBmRpRQEjFQCiUBKo2gIsGmUFIrVKrAMQ1TgBBpwHPq9k335EFVaVQZosKBVLEAqpFARG0YA6sKokA4ZWdIGGjWbyz6UGsVi2KUFDYiASoBqhIFChAaxQYrwlBrp9v+pnpiAiwrAESOgFUgZ8ziiAVm1ocoBwWLjDoJVSwaBsHHw/al9TaA655b4tY59Hjvfy3oNBIFQ1ACkOMmUFSsQLRtaAN+CCAaNWjQMOKVQBazb34nBgLjWrGeMxqgoBDoJUNQBPhYLx08eOeAMmRKwFapVMOAqoJTKCqo37CATBDQEMCngBtPGMa1OQNaiAZXEKA1BUgWM3l3/bUc+gG9OjDQWnRioJIgqozp6gHTVeJ0gxYZVyUBQys+TQLpCMBnMV+zWi0BK11BQFYrErASWEEFeS0GozUtBKKIDhFq0FakqBZ3xWHAZtnmuNPQOnAVpiioKGxSEGOn5+7WIwGStQDEcWAyiKBlQwbgN99+KZ0gzqnu1GbxBStAwCoLEBrOkaCajNjUBWI4NAXktKBkQ1A1q1loFp0RAKdQBKjjEBrNpFApVYADSAoxUBFEoCSNoCLBDKCkFalHKAYhq6AINVgM6WsGewDFF8iAYUgGKEALEUCjPImUGZGlDAZ6U0gGEM3nnqDSs9DqgCKwykAlagViSBSFKAcUGK8d9gVRQM0WGoFUiDNRFARYbRgDSrGQaw6zqlBpLflALxPHuqUWgdnqelynDx106gaESgKhoUFiwWtSgKYMILRK0MAimrAEiWHQCqQM2nFIgDNrQ5QDgxcTaCVigt7778AOpagBkSBUwQ4CqEplBVUb59+gzv7gTBDQEpgUA6eLHU3KBtWhSgoRxvsQFrNpsALjTg4xoFAJplBW4rFqgCfB6RYuHHAH2TRBj6s3z790ga4fQz9lAFy8igZ5fQXzqQGeRnmkCnmakAnf4H1/mpAo6VIF3+AUDPE1IFTUgZjSQMr1+f0kB+hSAJIH/9k=);
 }
 
 * {
     box-sizing: border-box;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
 }
 
 .container-nav {
@@ -17,6 +23,23 @@ body {
     background-color: white;
     width: 70%;
     padding-bottom: 10px;
+}
+
+.container-navbar {
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+.form-group {
+    margin-top: 20px;
 }
 
 .footer-copyright {
@@ -69,8 +92,4 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-.form-group {
-    margin-top: 20px;
 }
